@@ -12,7 +12,6 @@ Vue.config.productionTip = false
 
 Vue.use(Vuelidate)
 Vue.use(ToastService)
-const api_base_url = "http://emphasoft-test-assignment.herokuapp.com/api/v1"
 
 new Vue({
   router,

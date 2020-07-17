@@ -75,7 +75,6 @@ export default {
     created: function() {
         window.addEventListener('scroll', this.onScroll, true);
     },
-
     mounted: function () {
         if(this.authToken && router.currentRoute.name != 'Profile'){
             router.push({path: '/profile'})
@@ -86,10 +85,9 @@ export default {
 
 <style>
 #mainHeader{
-    width: calc(100%);
+    width: 100%;
     height: 10vh;
     display: flex;
-    margin-top: calc(-1 * height);
     background: var(--primary-light);
     overflow: hidden;
     justify-content: space-between;

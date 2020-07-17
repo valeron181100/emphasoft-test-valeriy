@@ -5,8 +5,8 @@ import createPersistedState from "vuex-persistedstate"
 import router from '../router'
 
 Vue.use(Vuex)
-const api_base_url = "http://emphasoft-test-assignment.herokuapp.com/api/v1/users"
-const api_auth_url = "http://emphasoft-test-assignment.herokuapp.com/api-token-auth/"
+const api_base_url = "https://emphasoft-test-assignment.herokuapp.com/api/v1/users"
+const api_auth_url = "https://emphasoft-test-assignment.herokuapp.com/api-token-auth/"
 export default new Vuex.Store({
   actions: {
     auth({commit, getters}, {vm, credentials}){

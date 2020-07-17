@@ -1,6 +1,8 @@
 .DS_Store
 node_modules
 /dist
+gitload.bat
+gitload
 
 # local env files
 .env.local
